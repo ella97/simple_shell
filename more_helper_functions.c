@@ -2,7 +2,7 @@
 /**
  * _remove_comments - Removes comments
  * @s: Given string
-*/
+ */
 void _remove_comments(char *s)
 {
 	int i = 0;
@@ -65,7 +65,7 @@ int _atoi(char *s)
  * _itoa - String integer
  * @value: Given value
  * Return: String
-*/
+ */
 char *_itoa(int value)
 {
 	char *buffer;
@@ -91,7 +91,7 @@ char *_itoa(int value)
  * _integer_length - Get integer length
  * @n: Given integer
  * Return: Length
-*/
+ */
 int _integer_length(int n)
 {
 	unsigned int count = 0;
