@@ -29,7 +29,7 @@ typedef struct alias
  * struct builtin - builtin
  * @builtin: name of builtin
  * @func: function of builtin
-*/
+ */
 typedef struct builtin
 {
 	char *builtin;
