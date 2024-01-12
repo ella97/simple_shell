@@ -5,7 +5,7 @@
  * @count: Count
  * @h: Head alias
  * Return: 0
-*/
+ */
 int _exitshell(char **text, int count, alias_t **h)
 {
 	int status = errno;
