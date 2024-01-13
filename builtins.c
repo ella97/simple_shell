@@ -23,3 +23,4 @@ int _exitshell(char **text, int count, alias_t **h)
 	free(text);
 	exit(status);
 }
+

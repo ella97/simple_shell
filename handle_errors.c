@@ -37,3 +37,4 @@ void _exit_error(int count, char *val)
 	write(STDERR_FILENO, "\n", 1);
 	free(str);
 }
+
