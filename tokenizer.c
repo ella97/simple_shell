@@ -4,7 +4,7 @@
  * @s: Array of string characters
  * @sep: Seperator
  * Return: Array of each word in string
- */
+*/
 char **_tokenizer(char *s, char *sep)
 {
 	int n = 0;
@@ -30,7 +30,7 @@ char **_tokenizer(char *s, char *sep)
  * @str: string to tokenize
  * @sep: seperator
  * Return: Token or Null
- */
+*/
 char *_strtok(char *str, char *sep)
 {
 	static char *ptr_str;
@@ -75,7 +75,7 @@ char *_strtok(char *str, char *sep)
  * @charac: character
  * @sep: seperator
  * Return: 1 if it matches 0 if it doesnt
- */
+*/
 int _delim(char charac, char *sep)
 {
 	while (*sep != '\0')
@@ -86,3 +86,4 @@ int _delim(char charac, char *sep)
 	}
 	return (0);
 }
+
