@@ -61,3 +61,4 @@ void _exit_error(int count, char *val);
 void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size);
 int _strlen(char *str);
 #endif
+

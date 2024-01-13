@@ -97,3 +97,4 @@ void _validator(char **text, char **argv, int attempts, alias_t **ls)
 			free(cmd);
 	}
 }
+
